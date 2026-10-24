@@ -1,0 +1,9 @@
+{
+  "balance_version": 1,
+  "hardcore_decision_ms": 10000,
+  "hardcore_reserve_ms": 30000,
+  "max_clock_loss_on_abrupt_kill_ms": 1000,
+  "clock_source": "caller_supplied_active_monotonic_delta",
+  "checkpoint_policy": "persist_projected_balance_before_active_window",
+  "restore_paused": true
+}

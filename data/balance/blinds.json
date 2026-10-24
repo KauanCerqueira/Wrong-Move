@@ -1,0 +1,5 @@
+{
+  "small_blinds": [10, 15, 25, 40, 60, 100, 150, 250, 400, 600, 1000, 1500, 3000],
+  "hands_per_level_heads_up_by_tier": [4, 4, 4, 3, 3, 3],
+  "hands_per_level_multiway_by_tier": [6, 6, 5, 5, 4, 4]
+}

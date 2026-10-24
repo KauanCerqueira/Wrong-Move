@@ -1,0 +1,15 @@
+.godot/
+builds/
+dist/
+.gradle/
+android/build/
+android/.build_version
+export_credentials.cfg
+*.keystore
+*.jks
+.env
+.env.*
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

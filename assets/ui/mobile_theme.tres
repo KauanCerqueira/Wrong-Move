@@ -1,0 +1,81 @@
+[gd_resource type="Theme" load_steps=7 format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSans.ttf" id="1_font"]
+
+[sub_resource type="StyleBoxFlat" id="Normal"]
+bg_color = Color(0.09, 0.19, 0.16, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.36, 0.49, 0.41, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_left = 8
+corner_radius_bottom_right = 8
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxFlat" id="Pressed"]
+bg_color = Color(0.55, 0.12, 0.15, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_left = 8
+corner_radius_bottom_right = 8
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxFlat" id="Focus"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.91, 0.74, 0.46, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_left = 8
+corner_radius_bottom_right = 8
+
+[sub_resource type="StyleBoxFlat" id="Disabled"]
+bg_color = Color(0.10, 0.16, 0.14, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_left = 8
+corner_radius_bottom_right = 8
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 6.0
+content_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxFlat" id="Dialog"]
+bg_color = Color(0.09, 0.14, 0.14, 1)
+content_margin_left = 16.0
+content_margin_right = 16.0
+content_margin_top = 16.0
+content_margin_bottom = 16.0
+
+[resource]
+default_font = ExtResource("1_font")
+default_font_size = 18
+Button/colors/font_color = Color(0.953, 0.914, 0.839, 1)
+Button/colors/font_hover_color = Color(1, 0.97, 0.9, 1)
+Button/colors/font_pressed_color = Color(1, 0.97, 0.9, 1)
+Button/colors/font_focus_color = Color(1, 0.97, 0.9, 1)
+Button/colors/font_disabled_color = Color(0.57, 0.65, 0.59, 1)
+Button/styles/normal = SubResource("Normal")
+Button/styles/hover = SubResource("Normal")
+Button/styles/pressed = SubResource("Pressed")
+Button/styles/focus = SubResource("Focus")
+Button/styles/disabled = SubResource("Disabled")
+Label/colors/font_color = Color(0.953, 0.914, 0.839, 1)
+CheckButton/colors/font_color = Color(0.953, 0.914, 0.839, 1)
+CheckButton/colors/font_hover_color = Color(1, 0.97, 0.9, 1)
+VBoxContainer/constants/separation = 8
+HBoxContainer/constants/separation = 4
+AcceptDialog/styles/panel = SubResource("Dialog")
+PopupPanel/styles/panel = SubResource("Dialog")

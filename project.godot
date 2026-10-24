@@ -1,0 +1,30 @@
+; Wrong Move: Android-first, offline Texas Hold'em.
+config_version=5
+
+[application]
+config/name="Wrong Move"
+config/version="0.1.0-dev"
+run/main_scene="res://scenes/app/app.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/ui/icon.svg"
+
+[display]
+window/size/viewport_width=360
+window/size/viewport_height=800
+window/size/window_width_override=450
+window/size/window_height_override=1000
+window/stretch/mode="canvas_items"
+window/handheld/orientation=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.0627451, 0.152941, 0.137255, 1)
+
+[audio]
+driver/enable_input=false
+
+[editor]
+version_control/plugin_name=""

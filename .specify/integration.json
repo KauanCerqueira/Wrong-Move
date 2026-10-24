@@ -1,0 +1,24 @@
+{
+  "version": "1.2.3",
+  "integration_state_schema": 1,
+  "installed_integrations": [
+    "codex",
+    "opencode"
+  ],
+  "integration_settings": {
+    "codex": {
+      "script": "sh",
+      "invoke_separator": "-"
+    },
+    "opencode": {
+      "script": "sh",
+      "raw_options": "--events false",
+      "parsed_options": {
+        "events": "false"
+      },
+      "invoke_separator": "."
+    }
+  },
+  "integration": "codex",
+  "default_integration": "codex"
+}

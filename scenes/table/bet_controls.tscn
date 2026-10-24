@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/presentation/bet_controls.gd" id="1"]
+[ext_resource type="Theme" path="res://assets/ui/mobile_theme.tres" id="2"]
+
+[node name="BetControls" type="VBoxContainer"]
+theme = ExtResource("2")
+script = ExtResource("1")
